@@ -1,0 +1,11 @@
+msg.payload = "GPIO5 set to HIGH";
+return msg;
+
+msg.payload = 1;
+return msg;
+
+msg.payload = 0;
+return msg;
+
+msg.payload = "GPIO5 set to LOW";
+return msg;
