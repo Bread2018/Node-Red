@@ -1,0 +1,7 @@
+get:
+msg.payload = global.get("GPIO");
+return msg;
+
+set:
+global.set("GPIO",msg.payload)
+return msg;
