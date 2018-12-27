@@ -1,0 +1,5 @@
+msg.headers={
+    deviceKey: "vVJxLiJ0tAAyTA5z"
+};
+msg.payload= "Temperature,,99";
+return msg;
